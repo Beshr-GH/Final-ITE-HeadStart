@@ -18,6 +18,7 @@ var Project = require('./routes/Project');
 var company = require('./routes/Company');
 var session = require("express-session");
 var hostname = 'localhost'; 
+
 var port = 8080;
 var app = express();
 app.use(session({
