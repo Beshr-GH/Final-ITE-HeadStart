@@ -38,6 +38,11 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade'); 
  
 app.use(morgan('dev')); 
+
+app.get('/', function(req,res) {
+	res.sendFile(path.join(__dirname+'/dist/index.html'));
+});
+
 app.use('/Software', Software);
 app.use('/AI', AI);
 app.use('/Network', Network);
@@ -58,6 +63,3 @@ app.listen(process.env.PORT || port, function(){
 
 app.use(express.static(__dirname + '/dist'));
 
-app.get('/', function(req,res) {
-	res.sendFile(path.join(__dirname+'/dist/index.html'));
-});
