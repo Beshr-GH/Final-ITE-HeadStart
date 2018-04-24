@@ -18,7 +18,7 @@ var Project = require('./routes/Project');
 var company = require('./routes/Company');
 var session = require("express-session");
 var hostname = 'localhost'; 
-var port = 4000;
+var port = 4000  || process.env.PORT;
 var app = express();
 app.use(session({
   secret : 'ITEHeadStart',
