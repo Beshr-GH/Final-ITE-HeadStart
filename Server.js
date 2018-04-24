@@ -18,7 +18,7 @@ var Project = require('./routes/Project');
 var company = require('./routes/Company');
 var session = require("express-session");
 var hostname = 'localhost'; 
-var port = 4000;
+var port = 8080;
 var app = express();
 app.use(session({
   secret : 'ITEHeadStart',
@@ -38,7 +38,6 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade'); 
  
 app.use(morgan('dev')); 
-app.use('/', home); 
 app.use('/Software', Software);
 app.use('/AI', AI);
 app.use('/Network', Network);
@@ -52,6 +51,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 
-app.listen(port, hostname, function(){ 
-  console.log(`ITE-HeadStart Project Server running at http://${hostname}:${port}/`); 
+app.listen(process.env.PORT || port, hostname, function(){ 
+  console.loportg(`ITE-HeadStart Project Server running at http://${hostname}:${port}/`); 
+});
+
+
+app.use(express.static(__dirname + '/dist'));
+
+app.get('/home', function(req,res) {
+	res.sendFile(path.join(__dirname+'/dist/index.html'));
 });
