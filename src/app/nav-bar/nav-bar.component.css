@@ -1,3 +1,14 @@
+/* lama */
+.img1 {
+    width: 100%;
+    height: auto;
+}
+/* lama */
+.img2 {
+    width: 100px;
+    height: 100px;
+    height: auto;
+}
         .header
         {
             position: fixed;
@@ -192,7 +203,7 @@
         /************
         6. 991px
         ************/
-/*         
+       
         @media only screen and (max-width: 991px)
         {
             .main_nav_container
@@ -282,39 +293,39 @@
             {
                 margin-bottom: 0px;
             }
-        } */
+        } 
         
         /************
         7. 959px
         ************/
-/*         
+       
         @media only screen and (max-width: 959px)
         {
             
-        } */
+        } 
         
         /************
         8. 880px
         ************/
         
-        /* @media only screen and (max-width: 880px)
+         @media only screen and (max-width: 880px)
         {
             
-        } */
+        } 
         
         /************
         9. 768px
         ************/
         
-        /* @media only screen and (max-width: 768px)
+         @media only screen and (max-width: 768px)
         {
             
         }
-         */
+         
         /************
         10. 767px
         ************/
-/*         
+       
         @media only screen and (max-width: 767px)
         {
             .menu_container
@@ -331,12 +342,12 @@
             {
                 margin-top: 15px;
             }
-        } */
+        } 
         
         /************
         11. 575px
         ************/
-/*         
+        
         @media only screen and (max-width: 575px)
         {
             h1{font-size: 24px;}
@@ -472,29 +483,29 @@
                 font-size: 13px;
             }
         }
-         */
+         
         /************
         11. 539px
         ************/
-/*         
+         
         @media only screen and (max-width: 539px)
         {
             
-        } */
+        } 
         
         /************
         12. 480px
         ************/
         
-        /* @media only screen and (max-width: 480px)
+         @media only screen and (max-width: 480px)
         {
             
-        } */
+        }
         
         /************
         13. 479px
         ************/
-/*         
+        
         @media only screen and (max-width: 479px)
         {
             .header
@@ -540,17 +551,17 @@
                 font-size: 10px;
             }
         }
-         */
+         
         /************
         14. 400px
         ************/
         
-        /* @media only screen and (max-width: 400px)
+         @media only screen and (max-width: 400px)
         {
             
 
 
-        } */
+        } 
 
 
         @media only screen and (max-width: 1280px)

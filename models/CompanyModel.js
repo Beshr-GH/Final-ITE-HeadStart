@@ -3,48 +3,51 @@ var Schema = mongoose.Schema;
 
 var CompanySchema = new Schema({
     _id: Schema.Types.ObjectId,
-    Name : {
-        type : String
-    },
-    Phone : {
-        type : String
-    },
-    Company_Name :{
-        type:String
-    },
-    Country : {
-        type : String
-    },
-    City : {
+    Name: {
         type: String
     },
-    Website : {
-        type : String
+    Phone: {
+        type: String
     },
-    Email:{
-        type : String
+    Company_Name: {
+        type: String
     },
-    commercial_Register : {
-        type : String
+    Country: {
+        type: String
     },
-    Info : {
-        type : String
+    City: {
+        type: String
     },
-    Sponser : 
-    {
-        type : Boolean
+    Website: {
+        type: String
     },
-    Guest :
-    {
-        type  : Boolean
-    } ,
-    Invester : 
-    {
-        type : Boolean
-    }
+    Email: {
+        type: String
+    },
+    commercial_Register: {
+        type: String
+    },
+    Info: {
+        type: String
+    },
+    Sponser:
+        {
+            type: Boolean,
+            default: false
+        },
+    Guest:
+        {
+            type: Boolean,
+            default: false
+        },
+    Invester:
+        {
+            type: Boolean,
+            default: false
+        }
 
-    
-    
+
+
 
 })
 

@@ -5,6 +5,11 @@ ul {
     overflow: hidden;
     background-color: rgba(156, 155, 155, 0.26);
 }
+/* lama */
+img {
+    width: 50%;
+    height: auto;
+}
 
 li {
     float: left;

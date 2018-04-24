@@ -25,7 +25,6 @@ export interface CompanySchema
         type : String;
     }
     sponser : number,
-    guest :number,
+    guest : number,
     invester : number
-
 }
