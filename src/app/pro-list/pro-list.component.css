@@ -1,0 +1,94 @@
+/*=====================================
+  FACULTY STYLES 
+  ===================================*/
+#faculty-sec {
+    background-color: white;
+    color: #fff;
+}
+
+    #faculty-sec .header-line {
+        color: #fff;
+    }
+.faculty-div h4 {
+    line-height:30px;
+    font-weight:700;
+}
+.faculty-div {
+    padding: 30px;
+}
+
+    .faculty-div hr {
+        border: 1px solid #1A94C4;
+    }
+
+    .faculty-div h3 {
+        font-size: 25px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #1A94C4;  
+    }
+
+    .faculty-div p {
+        padding-top: 10px;
+        padding-bottom: 15px;
+        color: #1A94C4;
+    }
+
+    .faculty-div img {
+        border: 10px double #1A94C4;
+        
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        background-color:white;
+      }
+      
+      .title {
+        color: grey;
+        font-size: 18px;
+      }
+      .view-more{
+          color: gray;
+        font-size: 20px;
+        
+
+      }
+      button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #57A0CE;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+      
+      a {
+        text-decoration: none;
+        font-size: 22px;
+        color: black;
+      }
+      
+      button:hover, a:hover {
+        opacity: 0.7;
+      }
+
+      .card a:hover
+      {
+          color: black;
+          background: rgba(87, 160, 206, 0.34);
+          
+      }
+      .card a
+      {
+        border-bottom: solid 1px #57A0CE;
+          
+      }
