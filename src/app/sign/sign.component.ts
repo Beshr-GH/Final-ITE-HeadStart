@@ -3,8 +3,9 @@ import { ProListService } from '../pro-list.service';
 import { Http } from '@angular/http';
 import { CompanySchema } from "../CompanySchema";
 import { FormGroup, FormControl } from '@angular/forms/src/model';
-import { Router } from '@angular/router';
+import { Router,RouterModule } from '@angular/router';
 import { Validators } from '@angular/forms/src/validators';
+
 
 @Component({
   selector: 'app-sign',

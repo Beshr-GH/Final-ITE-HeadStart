@@ -5,6 +5,7 @@ import { NgModel } from '@angular/forms';
 import { FilterPipe } from '../filter.pipe';
 import {ProListService } from '../pro-list.service';
 import {ProjectSchema} from "../ProjectSchema";
+import {Router, RouterModule } from '@angular/router';
 
 
 @Component({
