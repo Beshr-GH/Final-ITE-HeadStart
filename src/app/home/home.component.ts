@@ -26,7 +26,7 @@ export class HomeComponent implements OnInit {
       duration : "2-3 hours",
       
       img:"event.jpg",
-      Lecturer:"Mr. Hadi Naha",
+      Lecturer:"Mr. Hadi Nahas",
       description2:"Pricing project in the right way."
     
     },
@@ -44,23 +44,23 @@ export class HomeComponent implements OnInit {
     {
       month:"MAY",
       day:"08",
-      name:"Lectur4 : How to formulate the optimal solution UI/U ",
+      name:"Lectur4 : How to formulate the optimal solution UI/UX ",
       duration : "2 hours",
       
       img:"event.jpg",
-      Lecturer:"Mr. AbdelMalek Al-Mouzaye",
+      Lecturer:"Mr. AbdelMalek Al-Mouzayen",
       description2:"Design not only programs and Apps but the right programs and apps."
     
     },
     {
       month:"MAY",
       day:"10",
-      name:"Lectur5 :Case Studie",
+      name:"Lectur5 :Case Studies",
       duration : "2 hours",
       
       
       img:"event.jpg",
-      Lecturer:"Mr. AbdelMalek Al-Mouzayen and Mr. Saeb Naha ",
+      Lecturer:"Mr. AbdelMalek Al-Mouzayen and Mr. Saeb Nahas ",
       description2:"The main goal of this lecture is to show previous businessmen Biographies."
     
     }
