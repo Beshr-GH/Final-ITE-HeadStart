@@ -10,6 +10,7 @@ import { SignComponent } from './sign/sign.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { HttpModule } from '@angular/http';
 import { DetailsComponent } from './details/details.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { DetailsComponent } from './details/details.component';
     ProjectDetailsComponent,
     SignComponent,
     AboutUsComponent,
-    DetailsComponent
+    DetailsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

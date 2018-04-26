@@ -2771,7 +2771,7 @@ input:last-of-type
 }
 .event_day
 {
-	font-size: 48px;
+	font-size: 24px;
 	font-weight: 700;
 	color: #3486BB;
 	margin-bottom: 1px;
@@ -2783,13 +2783,13 @@ input:last-of-type
 	font-weight: 700;
 	color: #3486BB;
 }
-.event_name a
+.event_name h3
 {
 	font-size: 22px;
 	font-weight: 500;
 	color: #1a1a1a;
 }
-.event_name a:hover
+.event_name h3:hover
 {
 	color: #3486BB;
 }
